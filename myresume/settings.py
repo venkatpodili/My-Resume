@@ -27,9 +27,9 @@ STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
 SECRET_KEY = 'r2us_+6jw(rne=_mg=5bu^pmh8s3d*3djp^l+t=c%fu*sw^yve'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
